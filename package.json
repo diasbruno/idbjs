@@ -1,0 +1,28 @@
+{
+  "name": "idbjs",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "sh ./scripts/server.sh"
+  },
+  "dependencies": {
+    "data.task": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "karma-spec-reporter": "0.0.30",
+    "karma-webpack": "^2.0.3",
+    "mocha": "^3.2.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
